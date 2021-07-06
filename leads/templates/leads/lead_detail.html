@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .lead{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 6px;
+            padding-right: 6px;
+            margin-top: 10px;
+            background-color: darkorange; 
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+        <a href="/leads">Go back to leads_list</a>
+        <br>
+        <h1>This are details of {{ lead.first_name }}</h1>
+        <h2>firstName: {{ lead.first_name }}</h2>
+        <h2>lastName: {{ lead.last_name }}</h2>
+        <h2>Age: {{ lead.age }}</h2>
+        <h2>Agent: {{ lead.agent }}</h2>
+    
+</body>
+</html>
